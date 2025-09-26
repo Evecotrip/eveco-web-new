@@ -30,7 +30,10 @@ export default function Home() {
       <section className="relative h-screen overflow-hidden">
         {/* Full-screen background video */}
         <div className="absolute inset-0">
-         <Image src={tataCurvvImage3} fill alt="Tata Curvv" />
+         {/* Desktop/Tablet Image */}
+         <Image src={tataCurvvImage3} fill alt="Tata Curvv" className="hidden md:block object-cover" />
+         {/* Mobile Image */}
+         <Image src={tataCurvvImage4} fill alt="Tata Curvv" className="block md:hidden" />
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
 
