@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         {/* Content overlay */}
-        <div className="relative z-10 h-full flex items-end md:items-center pb-5 md:pb-0">
+        <div className="relative z-10 h-full flex items-center justify-center pt-20 md:pt-0">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-3xl">
               <h1
