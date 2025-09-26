@@ -5,6 +5,8 @@ import tataCurvvImage from "./assets/tata-curvv.jpg";
 import tataCurvvImage2 from "./assets/tatata.jpg";
 import tataCurvvImage3 from "./assets/tataN.jpg";
 import tataCurvvImage4 from "./assets/gem.png";
+import tataCurvvImage5 from "./assets/t1.jpg";
+import tataCurvvImage6 from "./assets/t2.jpg";
 import zSEVImage from "./assets/mg-zsev.webp";
 import EvecoStats from "./components/EvecoStats";
 import EvecoShinyCard from "./components/EvecoShinyCard";
@@ -33,12 +35,12 @@ export default function Home() {
          {/* Desktop/Tablet Image */}
          <Image src={tataCurvvImage3} fill alt="Tata Curvv" className="hidden md:block object-cover" />
          {/* Mobile Image */}
-         <Image src={tataCurvvImage4} fill alt="Tata Curvv" className="block md:hidden" />
+         <Image src={tataCurvvImage5} fill alt="Tata Curvv" className="block md:hidden" />
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
 
         {/* Content overlay */}
-        <div className="relative z-10 h-full flex items-center">
+        <div className="relative z-10 h-full flex items-end md:items-center pb-5 md:pb-0">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-3xl">
               <h1
